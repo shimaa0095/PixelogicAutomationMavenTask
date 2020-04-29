@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="52" passed="52">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="465834" started-at="2020-04-30T16:39:07 EET" finished-at="2020-04-30T16:46:53 EET">
+    <groups>
+    </groups>
+    <test name="All" duration-ms="465834" started-at="2020-04-30T16:39:07 EET" finished-at="2020-04-30T16:46:53 EET">
+      <class name="tests.RestAssuredLoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-04-30T16:46:49 EET" finished-at="2020-04-30T16:46:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="restApiLoginnTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="restApiLoginnTest" duration-ms="787" started-at="2020-04-30T16:46:49 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:50 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[redircted to url->https://www.phptravels.net/account/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiLoginnTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="endOfTest" is-config="true" duration-ms="80" started-at="2020-04-30T16:46:50 EET" finished-at="2020-04-30T16:46:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiLoginnTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="restApiLoginnTest" duration-ms="785" started-at="2020-04-30T16:46:50 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ha@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error message->Invalid Email or Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiLoginnTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="endOfTest" is-config="true" duration-ms="63" started-at="2020-04-30T16:46:51 EET" finished-at="2020-04-30T16:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiLoginnTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="restApiLoginnTest" duration-ms="843" started-at="2020-04-30T16:46:51 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ae7@gmail.c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error message->Invalid Email or Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiLoginnTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="endOfTest" is-config="true" duration-ms="25" started-at="2020-04-30T16:46:52 EET" finished-at="2020-04-30T16:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiLoginnTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="restApiLoginnTest" duration-ms="807" started-at="2020-04-30T16:46:52 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ss0000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error message->Invalid Email or Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiLoginnTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredLoginTest@2bbf4b8b]" name="endOfTest" is-config="true" duration-ms="45" started-at="2020-04-30T16:46:53 EET" finished-at="2020-04-30T16:46:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+      </class> <!-- tests.RestAssuredLoginTest -->
+      <class name="tests.RestAssuredRegisterationTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="beforeClass" is-config="true" duration-ms="9" started-at="2020-04-30T16:46:21 EET" finished-at="2020-04-30T16:46:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="9857" started-at="2020-04-30T16:46:21 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232320]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@mail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[redircted to url->https://www.phptravels.net/account/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="33" started-at="2020-04-30T16:46:31 EET" finished-at="2020-04-30T16:46:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="790" started-at="2020-04-30T16:46:31 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 1->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="31" started-at="2020-04-30T16:46:32 EET" finished-at="2020-04-30T16:46:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="836" started-at="2020-04-30T16:46:32 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 2->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="34" started-at="2020-04-30T16:46:33 EET" finished-at="2020-04-30T16:46:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="986" started-at="2020-04-30T16:46:33 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 3->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="42" started-at="2020-04-30T16:46:34 EET" finished-at="2020-04-30T16:46:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="807" started-at="2020-04-30T16:46:34 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 4->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="45" started-at="2020-04-30T16:46:35 EET" finished-at="2020-04-30T16:46:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="805" started-at="2020-04-30T16:46:35 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 5->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="40" started-at="2020-04-30T16:46:36 EET" finished-at="2020-04-30T16:46:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="826" started-at="2020-04-30T16:46:36 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 6->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="54" started-at="2020-04-30T16:46:37 EET" finished-at="2020-04-30T16:46:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="822" started-at="2020-04-30T16:46:37 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae0@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The First Name field must start with capital letter.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="45" started-at="2020-04-30T16:46:37 EET" finished-at="2020-04-30T16:46:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="806" started-at="2020-04-30T16:46:38 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Last Name field must start with capital letter.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="41" started-at="2020-04-30T16:46:38 EET" finished-at="2020-04-30T16:46:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="803" started-at="2020-04-30T16:46:38 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:39 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae3@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Last Name field must not equal First Name.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="61" started-at="2020-04-30T16:46:39 EET" finished-at="2020-04-30T16:46:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="840" started-at="2020-04-30T16:46:39 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:40 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ggg@0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae4@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Mobile Number field must contain a valid mobile number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="33" started-at="2020-04-30T16:46:40 EET" finished-at="2020-04-30T16:46:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="800" started-at="2020-04-30T16:46:40 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0111323232]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae5@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Mobile Number field must contain a valid mobile number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="37" started-at="2020-04-30T16:46:41 EET" finished-at="2020-04-30T16:46:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="901" started-at="2020-04-30T16:46:41 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11115555fg#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae6@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Mobile Number field must contain a valid mobile number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="45" started-at="2020-04-30T16:46:42 EET" finished-at="2020-04-30T16:46:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="534" started-at="2020-04-30T16:46:42 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae@gmail.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="37" started-at="2020-04-30T16:46:42 EET" finished-at="2020-04-30T16:46:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="810" started-at="2020-04-30T16:46:42 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae7@gmail.c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="35" started-at="2020-04-30T16:46:43 EET" finished-at="2020-04-30T16:46:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="841" started-at="2020-04-30T16:46:43 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="36" started-at="2020-04-30T16:46:44 EET" finished-at="2020-04-30T16:46:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="793" started-at="2020-04-30T16:46:44 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:45 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[@gmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="39" started-at="2020-04-30T16:46:45 EET" finished-at="2020-04-30T16:46:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="765" started-at="2020-04-30T16:46:45 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="39" started-at="2020-04-30T16:46:46 EET" finished-at="2020-04-30T16:46:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="798" started-at="2020-04-30T16:46:46 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:47 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae8@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae1122]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Password field must have capital letter, small letter, with a limit of 8 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="60" started-at="2020-04-30T16:46:47 EET" finished-at="2020-04-30T16:46:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="839" started-at="2020-04-30T16:46:47 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:48 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae@mail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11223355]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11223355]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Password field must have capital letter, small letter, with a limit of 8 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="32" started-at="2020-04-30T16:46:48 EET" finished-at="2020-04-30T16:46:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="772" started-at="2020-04-30T16:46:48 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:48 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae9@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[012233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->Password not matching with confirm password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="30" started-at="2020-04-30T16:46:48 EET" finished-at="2020-04-30T16:46:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="restApiRegisterationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="restApiRegisterationTest" duration-ms="782" started-at="2020-04-30T16:46:48 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sarah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232329]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[t@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[redircted to url->https://www.phptravels.net/account/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApiRegisterationTest -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RestAssuredRegisterationTest@1563da5]" name="endOfTest" is-config="true" duration-ms="28" started-at="2020-04-30T16:46:49 EET" finished-at="2020-04-30T16:46:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+      </class> <!-- tests.RestAssuredRegisterationTest -->
+      <class name="tests.SeleniumLoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="beforeClass" is-config="true" duration-ms="35" started-at="2020-04-30T16:45:24 EET" finished-at="2020-04-30T16:45:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="testLogin" duration-ms="13339" started-at="2020-04-30T16:45:24 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:45:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[redircted to url->https://www.phptravels.net/account/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="endOfTest" is-config="true" duration-ms="59" started-at="2020-04-30T16:45:37 EET" finished-at="2020-04-30T16:45:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="testLogin" duration-ms="15544" started-at="2020-04-30T16:45:37 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:45:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ha@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error message->Invalid Email or Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="endOfTest" is-config="true" duration-ms="58" started-at="2020-04-30T16:45:53 EET" finished-at="2020-04-30T16:45:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="testLogin" duration-ms="14883" started-at="2020-04-30T16:45:53 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ae7@gmail.c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error message->Invalid Email or Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="endOfTest" is-config="true" duration-ms="49" started-at="2020-04-30T16:46:08 EET" finished-at="2020-04-30T16:46:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="testLogin" duration-ms="13539" started-at="2020-04-30T16:46:08 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:46:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ss0000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error message->Invalid Email or Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumLoginTest@ea1a8d5]" name="endOfTest" is-config="true" duration-ms="50" started-at="2020-04-30T16:46:21 EET" finished-at="2020-04-30T16:46:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+      </class> <!-- tests.SeleniumLoginTest -->
+      <class name="tests.SeleniumRegisterationTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="beforeClass" is-config="true" duration-ms="204" started-at="2020-04-30T16:39:07 EET" finished-at="2020-04-30T16:39:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="18565" started-at="2020-04-30T16:39:08 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:39:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232320]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@mail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[redircted to url->https://www.phptravels.net/account/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="677" started-at="2020-04-30T16:39:26 EET" finished-at="2020-04-30T16:39:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="16974" started-at="2020-04-30T16:39:27 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:39:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 1->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="81" started-at="2020-04-30T16:39:44 EET" finished-at="2020-04-30T16:39:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="15106" started-at="2020-04-30T16:39:44 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:39:59 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 2->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="68" started-at="2020-04-30T16:39:59 EET" finished-at="2020-04-30T16:39:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="14371" started-at="2020-04-30T16:39:59 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:40:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 3->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="91" started-at="2020-04-30T16:40:14 EET" finished-at="2020-04-30T16:40:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="23640" started-at="2020-04-30T16:40:14 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:40:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 4->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="74" started-at="2020-04-30T16:40:37 EET" finished-at="2020-04-30T16:40:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="16327" started-at="2020-04-30T16:40:37 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:40:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 5->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="76" started-at="2020-04-30T16:40:54 EET" finished-at="2020-04-30T16:40:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="14752" started-at="2020-04-30T16:40:54 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:41:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232325]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ha@outlook.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ha112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pop up message 6->Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="75" started-at="2020-04-30T16:41:09 EET" finished-at="2020-04-30T16:41:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="18572" started-at="2020-04-30T16:41:09 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:41:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae0@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The First Name field must start with capital letter.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="59" started-at="2020-04-30T16:41:27 EET" finished-at="2020-04-30T16:41:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="23472" started-at="2020-04-30T16:41:27 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:41:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Last Name field must start with capital letter.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="57" started-at="2020-04-30T16:41:51 EET" finished-at="2020-04-30T16:41:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="20693" started-at="2020-04-30T16:41:51 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:42:12 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae3@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Last Name field must not equal First Name.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="35" started-at="2020-04-30T16:42:12 EET" finished-at="2020-04-30T16:42:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="21067" started-at="2020-04-30T16:42:12 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:42:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ggg@0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae4@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Mobile Number field must contain a valid mobile number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="42" started-at="2020-04-30T16:42:33 EET" finished-at="2020-04-30T16:42:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="16518" started-at="2020-04-30T16:42:33 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:42:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0111323232]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae5@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Mobile Number field must contain a valid mobile number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="73" started-at="2020-04-30T16:42:49 EET" finished-at="2020-04-30T16:42:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="20120" started-at="2020-04-30T16:42:49 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:43:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11115555fg#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae6@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Mobile Number field must contain a valid mobile number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="36" started-at="2020-04-30T16:43:09 EET" finished-at="2020-04-30T16:43:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="17662" started-at="2020-04-30T16:43:09 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:43:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae@gmail.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="43" started-at="2020-04-30T16:43:27 EET" finished-at="2020-04-30T16:43:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="15451" started-at="2020-04-30T16:43:27 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:43:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae7@gmail.c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="78" started-at="2020-04-30T16:43:43 EET" finished-at="2020-04-30T16:43:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="14327" started-at="2020-04-30T16:43:43 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:43:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="52" started-at="2020-04-30T16:43:57 EET" finished-at="2020-04-30T16:43:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="13844" started-at="2020-04-30T16:43:57 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:44:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[@gmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="88" started-at="2020-04-30T16:44:11 EET" finished-at="2020-04-30T16:44:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="13986" started-at="2020-04-30T16:44:11 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:44:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Email field must contain a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="68" started-at="2020-04-30T16:44:25 EET" finished-at="2020-04-30T16:44:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="16004" started-at="2020-04-30T16:44:25 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:44:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae8@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae1122]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Password field must have capital letter, small letter, with a limit of 8 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="46" started-at="2020-04-30T16:44:41 EET" finished-at="2020-04-30T16:44:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="14454" started-at="2020-04-30T16:44:41 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:44:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae@mail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11223355]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11223355]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->The Password field must have capital letter, small letter, with a limit of 8 characters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="54" started-at="2020-04-30T16:44:56 EET" finished-at="2020-04-30T16:44:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="14109" started-at="2020-04-30T16:44:56 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:45:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ebrahim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232327]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ae9@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[012233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[error message->Password not matching with confirm password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="71" started-at="2020-04-30T16:45:10 EET" finished-at="2020-04-30T16:45:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="testRegisteration" duration-ms="13752" started-at="2020-04-30T16:45:10 EET" data-provider="DataProviderForusers" finished-at="2020-04-30T16:45:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sarah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01113232329]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[t@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ae112233]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[redircted to url->https://www.phptravels.net/account/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.SeleniumRegisterationTest@528931cf]" name="endOfTest" is-config="true" duration-ms="64" started-at="2020-04-30T16:45:24 EET" finished-at="2020-04-30T16:45:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+      </class> <!-- tests.SeleniumRegisterationTest -->
+    </test> <!-- All -->
+  </suite> <!-- Suite -->
+</testng-results>

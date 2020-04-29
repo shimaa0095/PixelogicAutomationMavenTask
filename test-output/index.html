@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\shimaa\Desktop\PixelogicAutomationMavenTask\All.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">52 methods,   52 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredLoginTest" hash-for-method="restApiLoginnTest(, Ss0000, error message-&gt;Invalid Email or Password)">restApiLoginnTest(, Ss0000, error message->Invalid Email or Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredLoginTest" hash-for-method="restApiLoginnTest(ae7@gmail.c, Ae112233, error message-&gt;Invalid Email or Password)">restApiLoginnTest(ae7@gmail.c, Ae112233, error message->Invalid Email or Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredLoginTest" hash-for-method="restApiLoginnTest(ha@mail.com, , error message-&gt;Invalid Email or Password)">restApiLoginnTest(ha@mail.com, , error message->Invalid Email or Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredLoginTest" hash-for-method="restApiLoginnTest(t@test.com, Ae112233, redircted to url-&gt;https://www.phptravels.net/account/)">restApiLoginnTest(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a ...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field...)">restApiRegisterationTest(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message-&gt;The Password field must h...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message-&gt;The Email field must conta...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must conta...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1-&gt;Please fill out this fie...)">restApiRegisterationTest(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this fie...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message-&gt;The First Name field mu...)">restApiRegisterationTest(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field mu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5-&gt;Please fill out this field.)">restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message-&gt;The Email field must cont...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must cont...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url-&gt;https://www.phptravels...)">restApiRegisterationTest(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url-&gt;https://www.phptravels.ne...)">restApiRegisterationTest(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.ne...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message-&gt;The Email field must contai...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contai...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field must ...)">restApiRegisterationTest(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3-&gt;Please fill out this field.)">restApiRegisterationTest(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4-&gt;Please fill out this field.)">restApiRegisterationTest(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6-&gt;Please fill out this field.)">restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message-&gt;Password not matching wit...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching wit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2-&gt;Please fill out this fie...)">restApiRegisterationTest(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this fie...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field ...)">restApiRegisterationTest(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field must no...)">restApiRegisterationTest(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must no...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field mus...)">restApiRegisterationTest(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field mus...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RestAssuredRegisterationTest" hash-for-method="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message-&gt;The Password field must h...)">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumLoginTest" hash-for-method="testLogin(ae7@gmail.c, Ae112233, error message-&gt;Invalid Email or Password)">testLogin(ae7@gmail.c, Ae112233, error message->Invalid Email or Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumLoginTest" hash-for-method="testLogin(, Ss0000, error message-&gt;Invalid Email or Password)">testLogin(, Ss0000, error message->Invalid Email or Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumLoginTest" hash-for-method="testLogin(t@test.com, Ae112233, redircted to url-&gt;https://www.phptravels.net/account/)">testLogin(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumLoginTest" hash-for-method="testLogin(ha@mail.com, , error message-&gt;Invalid Email or Password)">testLogin(ha@mail.com, , error message->Invalid Email or Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message-&gt;The Password field must h...)">testRegisteration(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message-&gt;Password not matching wit...)">testRegisteration(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching wit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field ...)">testRegisteration(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5-&gt;Please fill out this field.)">testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6-&gt;Please fill out this field.)">testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field must no...)">testRegisteration(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must no...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4-&gt;Please fill out this field.)">testRegisteration(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2-&gt;Please fill out this fie...)">testRegisteration(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this fie...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field...)">testRegisteration(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message-&gt;The First Name field mu...)">testRegisteration(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field mu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message-&gt;The Email field must conta...)">testRegisteration(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must conta...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field mus...)">testRegisteration(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field mus...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1-&gt;Please fill out this fie...)">testRegisteration(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this fie...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message-&gt;The Password field must h...)">testRegisteration(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3-&gt;Please fill out this field.)">testRegisteration(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a...)">testRegisteration(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message-&gt;The Email field must cont...)">testRegisteration(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must cont...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field must ...)">testRegisteration(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url-&gt;https://www.phptravels...)">testRegisteration(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a ...)">testRegisteration(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url-&gt;https://www.phptravels.ne...)">testRegisteration(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.ne...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SeleniumRegisterationTest" hash-for-method="testRegisteration(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message-&gt;The Email field must contai...)">testRegisteration(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contai...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RestAssuredRegisterationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a ...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a ...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must contain a valid mobile number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message-&gt;The Password field must h...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must h...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must have capital letter, small letter, with a limit of 8 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message-&gt;The Email field must conta...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must conta...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1-&gt;Please fill out this fie...)">
+                  </a> <!-- restApiRegisterationTest(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this fie...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message-&gt;The First Name field mu...)">
+                  </a> <!-- restApiRegisterationTest(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field mu...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field must start with capital letter.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5-&gt;Please fill out this field.)">
+                  </a> <!-- restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message-&gt;The Email field must cont...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must cont...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url-&gt;https://www.phptravels...)">
+                  </a> <!-- restApiRegisterationTest(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels.net/account/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url-&gt;https://www.phptravels.ne...)">
+                  </a> <!-- restApiRegisterationTest(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.ne...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.net/account/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message-&gt;The Email field must contai...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contai...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field must ...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must ...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must contain a valid mobile number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3-&gt;Please fill out this field.)">
+                  </a> <!-- restApiRegisterationTest(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4-&gt;Please fill out this field.)">
+                  </a> <!-- restApiRegisterationTest(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6-&gt;Please fill out this field.)">
+                  </a> <!-- restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message-&gt;Password not matching wit...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching wit...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching with confirm password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2-&gt;Please fill out this fie...)">
+                  </a> <!-- restApiRegisterationTest(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this fie...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field ...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field ...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must contain a valid mobile number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field must no...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must no...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must not equal First Name.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field mus...)">
+                  </a> <!-- restApiRegisterationTest(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field mus...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field must start with capital letter.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message-&gt;The Password field must h...)">
+                  </a> <!-- restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must h...) -->
+                  <span class="method-name">restApiRegisterationTest</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must have capital letter, small letter, with a limit of 8 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SeleniumRegisterationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message-&gt;The Password field must h...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must h...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must have capital letter, small letter, with a limit of 8 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message-&gt;Password not matching wit...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching wit...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching with confirm password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field ...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field ...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must contain a valid mobile number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5-&gt;Please fill out this field.)">
+                  </a> <!-- testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6-&gt;Please fill out this field.)">
+                  </a> <!-- testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field must no...)">
+                  </a> <!-- testRegisteration(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must no...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must not equal First Name.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4-&gt;Please fill out this field.)">
+                  </a> <!-- testRegisteration(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2-&gt;Please fill out this fie...)">
+                  </a> <!-- testRegisteration(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this fie...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must contain a valid mobile number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message-&gt;The First Name field mu...)">
+                  </a> <!-- testRegisteration(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field mu...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field must start with capital letter.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message-&gt;The Email field must conta...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must conta...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message-&gt;The Last Name field mus...)">
+                  </a> <!-- testRegisteration(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field mus...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field must start with capital letter.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1-&gt;Please fill out this fie...)">
+                  </a> <!-- testRegisteration(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this fie...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message-&gt;The Password field must h...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must h...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must have capital letter, small letter, with a limit of 8 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3-&gt;Please fill out this field.)">
+                  </a> <!-- testRegisteration(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message-&gt;The Email field must cont...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must cont...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message-&gt;The Mobile Number field must ...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must ...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must contain a valid mobile number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url-&gt;https://www.phptravels...)">
+                  </a> <!-- testRegisteration(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels.net/account/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message-&gt;The Email field must contain a ...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a ...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url-&gt;https://www.phptravels.ne...)">
+                  </a> <!-- testRegisteration(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.ne...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.net/account/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisteration(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message-&gt;The Email field must contai...)">
+                  </a> <!-- testRegisteration(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contai...) -->
+                  <span class="method-name">testRegisteration</span>
+                  <span class="parameters">(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contain a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RestAssuredLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiLoginnTest(, Ss0000, error message-&gt;Invalid Email or Password)">
+                  </a> <!-- restApiLoginnTest(, Ss0000, error message->Invalid Email or Password) -->
+                  <span class="method-name">restApiLoginnTest</span>
+                  <span class="parameters">(, Ss0000, error message->Invalid Email or Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiLoginnTest(ae7@gmail.c, Ae112233, error message-&gt;Invalid Email or Password)">
+                  </a> <!-- restApiLoginnTest(ae7@gmail.c, Ae112233, error message->Invalid Email or Password) -->
+                  <span class="method-name">restApiLoginnTest</span>
+                  <span class="parameters">(ae7@gmail.c, Ae112233, error message->Invalid Email or Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiLoginnTest(ha@mail.com, , error message-&gt;Invalid Email or Password)">
+                  </a> <!-- restApiLoginnTest(ha@mail.com, , error message->Invalid Email or Password) -->
+                  <span class="method-name">restApiLoginnTest</span>
+                  <span class="parameters">(ha@mail.com, , error message->Invalid Email or Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restApiLoginnTest(t@test.com, Ae112233, redircted to url-&gt;https://www.phptravels.net/account/)">
+                  </a> <!-- restApiLoginnTest(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/) -->
+                  <span class="method-name">restApiLoginnTest</span>
+                  <span class="parameters">(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SeleniumLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(ae7@gmail.c, Ae112233, error message-&gt;Invalid Email or Password)">
+                  </a> <!-- testLogin(ae7@gmail.c, Ae112233, error message->Invalid Email or Password) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(ae7@gmail.c, Ae112233, error message->Invalid Email or Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, Ss0000, error message-&gt;Invalid Email or Password)">
+                  </a> <!-- testLogin(, Ss0000, error message->Invalid Email or Password) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, Ss0000, error message->Invalid Email or Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(t@test.com, Ae112233, redircted to url-&gt;https://www.phptravels.net/account/)">
+                  </a> <!-- testLogin(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(ha@mail.com, , error message-&gt;Invalid Email or Password)">
+                  </a> <!-- testLogin(ha@mail.com, , error message->Invalid Email or Password) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(ha@mail.com, , error message->Invalid Email or Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shimaa\Desktop\PixelogicAutomationMavenTask\All.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SeleniumRegisterationTest&quot;/&gt;
+      &lt;class name=&quot;tests.SeleniumLoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.RestAssuredRegisterationTest&quot;/&gt;
+      &lt;class name=&quot;tests.RestAssuredLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(52);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testRegisteration')
+data.setCell(0, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(0, 3, 23640);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRegisteration')
+data.setCell(1, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(1, 3, 23472);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRegisteration')
+data.setCell(2, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(2, 3, 21067);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRegisteration')
+data.setCell(3, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(3, 3, 20693);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testRegisteration')
+data.setCell(4, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(4, 3, 20120);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRegisteration')
+data.setCell(5, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(5, 3, 18572);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRegisteration')
+data.setCell(6, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(6, 3, 18565);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testRegisteration')
+data.setCell(7, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(7, 3, 17662);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRegisteration')
+data.setCell(8, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(8, 3, 16974);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRegisteration')
+data.setCell(9, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(9, 3, 16518);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRegisteration')
+data.setCell(10, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(10, 3, 16327);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testRegisteration')
+data.setCell(11, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(11, 3, 16004);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLogin')
+data.setCell(12, 2, 'tests.SeleniumLoginTest')
+data.setCell(12, 3, 15544);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testRegisteration')
+data.setCell(13, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(13, 3, 15451);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testRegisteration')
+data.setCell(14, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(14, 3, 15106);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testLogin')
+data.setCell(15, 2, 'tests.SeleniumLoginTest')
+data.setCell(15, 3, 14883);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testRegisteration')
+data.setCell(16, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(16, 3, 14752);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testRegisteration')
+data.setCell(17, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(17, 3, 14454);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testRegisteration')
+data.setCell(18, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(18, 3, 14371);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testRegisteration')
+data.setCell(19, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(19, 3, 14327);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testRegisteration')
+data.setCell(20, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(20, 3, 14109);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testRegisteration')
+data.setCell(21, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(21, 3, 13986);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testRegisteration')
+data.setCell(22, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(22, 3, 13844);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testRegisteration')
+data.setCell(23, 2, 'tests.SeleniumRegisterationTest')
+data.setCell(23, 3, 13752);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testLogin')
+data.setCell(24, 2, 'tests.SeleniumLoginTest')
+data.setCell(24, 3, 13539);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testLogin')
+data.setCell(25, 2, 'tests.SeleniumLoginTest')
+data.setCell(25, 3, 13339);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'restApiRegisterationTest')
+data.setCell(26, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(26, 3, 9857);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'restApiRegisterationTest')
+data.setCell(27, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(27, 3, 986);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'restApiRegisterationTest')
+data.setCell(28, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(28, 3, 901);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'restApiLoginnTest')
+data.setCell(29, 2, 'tests.RestAssuredLoginTest')
+data.setCell(29, 3, 843);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'restApiRegisterationTest')
+data.setCell(30, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(30, 3, 841);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'restApiRegisterationTest')
+data.setCell(31, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(31, 3, 840);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'restApiRegisterationTest')
+data.setCell(32, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(32, 3, 839);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'restApiRegisterationTest')
+data.setCell(33, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(33, 3, 836);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'restApiRegisterationTest')
+data.setCell(34, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(34, 3, 826);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'restApiRegisterationTest')
+data.setCell(35, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(35, 3, 822);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'restApiRegisterationTest')
+data.setCell(36, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(36, 3, 810);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'restApiLoginnTest')
+data.setCell(37, 2, 'tests.RestAssuredLoginTest')
+data.setCell(37, 3, 807);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'restApiRegisterationTest')
+data.setCell(38, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(38, 3, 807);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'restApiRegisterationTest')
+data.setCell(39, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(39, 3, 806);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'restApiRegisterationTest')
+data.setCell(40, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(40, 3, 805);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'restApiRegisterationTest')
+data.setCell(41, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(41, 3, 803);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'restApiRegisterationTest')
+data.setCell(42, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(42, 3, 800);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'restApiRegisterationTest')
+data.setCell(43, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(43, 3, 798);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'restApiRegisterationTest')
+data.setCell(44, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(44, 3, 793);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'restApiRegisterationTest')
+data.setCell(45, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(45, 3, 790);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'restApiLoginnTest')
+data.setCell(46, 2, 'tests.RestAssuredLoginTest')
+data.setCell(46, 3, 787);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'restApiLoginnTest')
+data.setCell(47, 2, 'tests.RestAssuredLoginTest')
+data.setCell(47, 3, 785);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'restApiRegisterationTest')
+data.setCell(48, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(48, 3, 782);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'restApiRegisterationTest')
+data.setCell(49, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(49, 3, 772);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'restApiRegisterationTest')
+data.setCell(50, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(50, 3, 765);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'restApiRegisterationTest')
+data.setCell(51, 2, 'tests.RestAssuredRegisterationTest')
+data.setCell(51, 3, 534);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SeleniumRegisterationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels...)</span>
+                <span class="method-start">909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">19488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this fie...)</span>
+                <span class="method-start">20166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">37143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this fie...)</span>
+                <span class="method-start">37224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">52334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.)</span>
+                <span class="method-start">52403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">66778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.)</span>
+                <span class="method-start">66870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">90513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.)</span>
+                <span class="method-start">90587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">106918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.)</span>
+                <span class="method-start">106995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">121749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field mu...)</span>
+                <span class="method-start">121824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">140401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field mus...)</span>
+                <span class="method-start">140460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">163935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must no...)</span>
+                <span class="method-start">163992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">184687 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must ...)</span>
+                <span class="method-start">184723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">205793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field ...)</span>
+                <span class="method-start">205836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">222369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field...)</span>
+                <span class="method-start">222442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">242563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contai...)</span>
+                <span class="method-start">242599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">260262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must cont...)</span>
+                <span class="method-start">260306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">275759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must conta...)</span>
+                <span class="method-start">275837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">290166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a...)</span>
+                <span class="method-start">290218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">304064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a ...)</span>
+                <span class="method-start">304152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">318141 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must h...)</span>
+                <span class="method-start">318209 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">334215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must h...)</span>
+                <span class="method-start">334261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">348716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching wit...)</span>
+                <span class="method-start">348770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">362881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRegisteration(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.ne...)</span>
+                <span class="method-start">362952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">376709 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SeleniumLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">376809 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/)</span>
+                <span class="method-start">376949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">390290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLogin(ha@mail.com, , error message->Invalid Email or Password)</span>
+                <span class="method-start">390349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">405895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLogin(ae7@gmail.c, Ae112233, error message->Invalid Email or Password)</span>
+                <span class="method-start">405954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">420840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, Ss0000, error message->Invalid Email or Password)</span>
+                <span class="method-start">420889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">434430 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RestAssuredRegisterationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">434480 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Hager, Ahmed, 01113232320, ha@mail.com, Ha112233, Ha112233, redircted to url->https://www.phptravels...)</span>
+                <span class="method-start">434570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">444433 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(, Ahmed, 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 1->Please fill out this fie...)</span>
+                <span class="method-start">444466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">445260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Hager, , 01113232325, ha@outlook.com, Ha112233, Ha112233, pop up message 2->Please fill out this fie...)</span>
+                <span class="method-start">445291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">446128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Hager, Ahmed, , ha@outlook.com, Ha112233, Ha112233, pop up message 3->Please fill out this field.)</span>
+                <span class="method-start">446163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">447151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Hager, Ahmed, 01113232325, , Ha112233, Ha112233, pop up message 4->Please fill out this field.)</span>
+                <span class="method-start">447193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">448003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, , Ha112233, pop up message 5->Please fill out this field.)</span>
+                <span class="method-start">448049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">448855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Hager, Ahmed, 01113232325, ha@outlook.com, Ha112233, , pop up message 6->Please fill out this field.)</span>
+                <span class="method-start">448896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">449724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(ali, Ebrahim, 01113232327, ae0@gmail.com, Ae112233, Ae112233, error message->The First Name field mu...)</span>
+                <span class="method-start">449778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">450601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, ebrahim, 01113232327, ae1@gmail.com, Ae112233, Ae112233, error message->The Last Name field mus...)</span>
+                <span class="method-start">450646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">451454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ali, 01113232327, ae3@gmail.com, Ae112233, Ae112233, error message->The Last Name field must no...)</span>
+                <span class="method-start">451496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">452300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, ggg@0, ae4@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field must ...)</span>
+                <span class="method-start">452361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">453205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 0111323232, ae5@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field ...)</span>
+                <span class="method-start">453238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">454040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 11115555fg#, ae6@gmail.com, Ae112233, Ae112233, error message->The Mobile Number field...)</span>
+                <span class="method-start">454078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">454982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@gmail., Ae112233, Ae112233, error message->The Email field must contai...)</span>
+                <span class="method-start">455027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">455563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae7@gmail.c, Ae112233, Ae112233, error message->The Email field must cont...)</span>
+                <span class="method-start">455600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">456412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail.com, Ae112233, Ae112233, error message->The Email field must conta...)</span>
+                <span class="method-start">456447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">457289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, @gmail, Ae112233, Ae112233, error message->The Email field must contain a...)</span>
+                <span class="method-start">457325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">458120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, gmail, Ae112233, Ae112233, error message->The Email field must contain a ...)</span>
+                <span class="method-start">458160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">458926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae8@gmail.com, Ae1122, Ae112233, error message->The Password field must h...)</span>
+                <span class="method-start">458966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">459766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae@mail.com, 11223355, 11223355, error message->The Password field must h...)</span>
+                <span class="method-start">459827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">460667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Ali, Ebrahim, 01113232327, ae9@gmail.com, Ae112233, 012233, error message->Password not matching wit...)</span>
+                <span class="method-start">460699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">461473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiRegisterationTest(Sarah, Ali, 01113232329, t@test.com, Ae112233, Ae112233, redircted to url->https://www.phptravels.ne...)</span>
+                <span class="method-start">461503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">462286 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RestAssuredLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">462315 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">restApiLoginnTest(t@test.com, Ae112233, redircted to url->https://www.phptravels.net/account/)</span>
+                <span class="method-start">462364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">463153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiLoginnTest(ha@mail.com, , error message->Invalid Email or Password)</span>
+                <span class="method-start">463234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">464020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiLoginnTest(ae7@gmail.c, Ae112233, error message->Invalid Email or Password)</span>
+                <span class="method-start">464083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">464926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">restApiLoginnTest(, Ss0000, error message->Invalid Email or Password)</span>
+                <span class="method-start">464952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endOfTest</span>
+                <span class="method-start">465761 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
