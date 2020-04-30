@@ -10,7 +10,7 @@
   
 * The result is in form of Reports, represents registeration and login test status for each testing type. 
 
-*The way to run PixelogicAutomationMavenTask project is:
+* The way to run PixelogicAutomationMavenTask project is:
 
 1- downloade the PixelogicAutomationMavenTask repo.
 
