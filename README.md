@@ -1,7 +1,7 @@
 # PixelogicAutomationMavenTask
 
 
-* i apply two kind of testing with java language,
+* i apply two kinds of testing with java language,
   first Automation testing using selenium for registeration and login page,
   seconde Api testing using Rest Assured for registeration and login page.
   
