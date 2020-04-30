@@ -6,7 +6,7 @@
   seconde Api testing using Rest Assured for registeration and login page.
   
 * there are only two data fiels in project, registeratin data file and login data file,
-  each data file is read twice,one for automation testing and the other for api testing. 
+  each data file is read twice, one for automation testing and the other for api testing. 
   
 * The result is in form of Reports, represents registeration and login test status for each testing type. 
 
